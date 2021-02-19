@@ -15,8 +15,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
 var _unit;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UnitImprovement = void 0;
-class UnitImprovement {
+const DataObject_1 = require("@civ-clone/core-data-object/DataObject");
+class UnitImprovement extends DataObject_1.default {
     constructor(unit) {
+        super();
         _unit.set(this, void 0);
         __classPrivateFieldSet(this, _unit, unit);
     }
