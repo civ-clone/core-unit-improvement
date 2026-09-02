@@ -9,7 +9,7 @@ export declare class UnitImprovement
   extends DataObject
   implements IUnitImprovement
 {
-  #private;
+  private _unit;
   constructor(unit: Unit);
   unit(): Unit;
 }

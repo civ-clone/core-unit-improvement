@@ -8,16 +8,16 @@ export interface IUnitImprovement extends IDataObject {
 }
 
 export class UnitImprovement extends DataObject implements IUnitImprovement {
-  #unit: Unit;
+  private _unit: Unit;
 
   constructor(unit: Unit) {
     super();
 
-    this.#unit = unit;
+    this._unit = unit;
   }
 
   unit(): Unit {
-    return this.#unit;
+    return this._unit;
   }
 }
 
