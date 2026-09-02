@@ -7,7 +7,8 @@ export interface IUnitImprovement extends IDataObject {
 }
 export declare class UnitImprovement
   extends DataObject
-  implements IUnitImprovement {
+  implements IUnitImprovement
+{
   #private;
   constructor(unit: Unit);
   unit(): Unit;

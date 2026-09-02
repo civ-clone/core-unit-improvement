@@ -10,7 +10,8 @@ export interface IUnitImprovementRegistry
 }
 export declare class UnitImprovementRegistry
   extends EntityRegistry<UnitImprovement>
-  implements IUnitImprovementRegistry {
+  implements IUnitImprovementRegistry
+{
   constructor();
   getByUnit(unit: Unit): UnitImprovement[];
 }
